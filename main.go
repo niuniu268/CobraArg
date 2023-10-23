@@ -10,6 +10,8 @@ import (
 
 func main() {
 
+	// section 1
+
 	//if len(os.Args) > 0 {
 	//	for index, val := range os.Args {
 	//
@@ -18,7 +20,8 @@ func main() {
 	//	}
 	//}
 
-	////定义命令行参数方式1
+	//Section 2
+
 	//var name string
 	//var age int
 	//var married bool
@@ -27,16 +30,17 @@ func main() {
 	//flag.IntVar(&age, "age", 18, "年龄")
 	//flag.BoolVar(&married, "married", false, "婚否")
 	//flag.DurationVar(&delay, "d", 0, "延迟的时间间隔")
-	//
-	////解析命令行参数
+
 	//flag.Parse()
 	//fmt.Println(name, age, married, delay)
-	////返回命令行参数后的其他参数
+	////return command with other arguments
 	//fmt.Println(flag.Args())
-	////返回命令行参数后的其他参数个数
+	////return command with the number of other arguments
 	//fmt.Println(flag.NArg())
-	////返回使用的命令行参数个数
+	////return the number of arguments in the comand line
 	//fmt.Println(flag.NFlag())
+
+	//section3
 
 	var ipn string
 	var address string
