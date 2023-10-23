@@ -1,7 +1,7 @@
 # Test Golang Libraries
-## os.arg
-## flag
-## cobra
+- os.arg
+- flag
+- cobra
 
 ## Section 1 
 ``` go build -o "arg_demo"  ```
@@ -59,3 +59,8 @@ Usage of ./arg_demo:
 {ip: 127.0.0.1, loopback: true}
 
 ```
+
+## Cobra
+
+cobra generator: https://github.com/spf13/cobra-cli/blob/main/README.md
+cobra user_guide: https://github.com/spf13/cobra/blob/main/site/content/user_guide.md
